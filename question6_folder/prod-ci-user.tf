@@ -2,6 +2,6 @@
 resource "aws_iam_user" "cision" {
   name = "cision_user"
   tags = {
-    name = "random"
+    name = "cision_user_iam"
   }
 }
