@@ -5,8 +5,7 @@ provider "aws" {
 terraform {
   required_version = ">= 1.1.7"
   backend "s3" {
-    bucket = "devops-masterclass"
-    key    = "terraformstate/terraform.tfstate"
+    bucket = "cision-test"
     region = "eu-west-2"
   }
 }
@@ -27,4 +26,19 @@ module "networks" {
 
 output "vpc_id" {
   value = module.networks.vpc_id
+}
+
+# Utils account containing users
+provider "aws" {
+  version = "~> 2.49"
+  profile = "utils"
+  region  = var.region_utils
+}
+
+# Prod account
+provider "aws" {
+  version = "~> 2.49"
+  profile = "prod"
+  region  = var.region_prod
+  alias   = "prod"
 }

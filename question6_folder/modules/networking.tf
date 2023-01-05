@@ -7,7 +7,7 @@ resource "aws_vpc" "main" {
   enable_classiclink_dns_support = false
 
   tags = {
-    Name            = "masterclass-VPC"
+    Name = "cision-VPC"
   }
 }
 
@@ -17,8 +17,8 @@ resource "aws_subnet" "public" {
   cidr_block              = var.public_subnet[count.index]
   availability_zone       = data.aws_availability_zones.available.names[count.index]
   map_public_ip_on_launch = true
-    tags = {
-    Name            = "${format("PublicSubnet-%02d", count.index + 1)}"
+  tags = {
+    Name = "${format("PublicSubnet-%02d", count.index + 1)}"
   }
 }
 
@@ -29,8 +29,8 @@ resource "aws_subnet" "compute_private" {
   cidr_block              = var.compute_private_subnet[count.index]
   availability_zone       = data.aws_availability_zones.available.names[count.index]
   map_public_ip_on_launch = false
-    tags = {
-    Name            = "${format("ComputePrivateSubnet-%02d", count.index + 1)}"
+  tags = {
+    Name = "${format("ComputePrivateSubnet-%02d", count.index + 1)}"
   }
 }
 
@@ -40,8 +40,8 @@ resource "aws_subnet" "data_private" {
   cidr_block              = var.data_private_subnet[count.index]
   availability_zone       = data.aws_availability_zones.available.names[count.index]
   map_public_ip_on_launch = false
-    tags = {
-    Name            = "${format("DataPrivateSubnet-%02d", count.index + 1)}"
+  tags = {
+    Name = "${format("DataPrivateSubnet-%02d", count.index + 1)}"
   }
 }
 
