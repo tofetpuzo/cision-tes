@@ -1,5 +1,5 @@
 // https://www.jenkins.io/doc/book/pipeline/syntax/
-
+// Build a Build Jenkins image using dockerfile and using it to build an app
 pipeline{
 	agent { dockerfile true }
 
