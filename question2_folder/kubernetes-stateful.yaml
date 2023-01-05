@@ -1,0 +1,57 @@
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: myapp-statefulset
+  namespace: myapp-ns
+  labels:
+      app: myapp
+
+spec:
+  serviceName: myapp-headless-service
+  replicas: 2
+  selector:
+    matchLabels:
+      app: myapp
+
+  template:
+    metadata:
+      labels:
+        app: myapp
+
+      spec:
+      volumes:
+       - name: mylogs  
+         persistentVolumeClaim:
+           claimName: myapp-pv-claim
+
+       - name: configmap-volume
+         configMap:
+           name: nginx-config
+
+      containers:
+        - name: myapp
+          image: myapp:latest
+          imagePullPolicy: IfNotPresent
+          ports:
+            - name: http
+              containerPort: 8080
+              protocol: TCP
+          envFrom:
+          - secretRef:
+              name: myapp-secret
+              mountPath: /data
+
+          volumeMounts:
+            - name: data
+              mountPath: "/mnt/data"
+              readOnly: false
+
+  volumeClaimTemplates:
+  - metadata:
+      name: data
+    spec:
+      accessModes: [ "ReadWriteOnce" ]
+      storageClassName: hostpath
+      resources:
+        requests:
+          storage: 50Mi
