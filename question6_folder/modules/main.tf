@@ -13,9 +13,7 @@ terraform {
 }
 module "networking" {
   source                 = "./modules/networking"
-  public_subnet          = var.public_subnet
-  compute_private_subnet = var.compute_private_subnet
-  data_private_subnet    = var.data_private_subnet
+  environments = var.environments
 }
 
 
