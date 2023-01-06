@@ -1,16 +1,21 @@
 # Prod account
-provider "aws" { 
+provider "aws" {
   profile = "prod"
   region  = var.region_prod
   alias   = "prod"
 }
 
-
+terraform {
+  backend "s3" {
+    bucket = "2023-01-05"
+    region = var.region_prod
+  }
+}
 module "networking" {
-  source   = "./cision/cision_questions/question6_folder/modules/networking"
-  public_subnet =  var.public_subnet
+  source                 = "./modules/networking"
+  public_subnet          = var.public_subnet
   compute_private_subnet = var.compute_private_subnet
-  data_private_subnet = var.data_private_subnet
+  data_private_subnet    = var.data_private_subnet
 }
 
 
@@ -19,12 +24,6 @@ module "networking" {
 //   vpc_id = module.networks.vpc_id
 // }
 
-terraform {
-  backend "s3" {
-    bucket = "cision-test"
-    region = "us-west-1"
-  }
-}
 output "vpc_id" {
   value = module.networks.vpc_id
 }

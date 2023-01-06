@@ -2,7 +2,7 @@
 resource "aws_iam_role" "prod_list_s3" {
   name = "s3-list-role"
   assume_role_policy = jsonencode({
-    Version = "cision-01",
+    Version = "2023-01-05",
     Statement = [
       {
         Effect    = "Allow",

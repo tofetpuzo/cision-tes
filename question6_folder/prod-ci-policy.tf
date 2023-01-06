@@ -4,7 +4,7 @@ resource "aws_iam_policy" "prod_s3" {
   name        = "prod_s3"
   description = "allow assuming prod_s3 role"
   policy = jsonencode({
-    Version = "cision-01",
+    Version = "2023-01-05",
     Statement = [
       {
         Effect   = "Allow",
