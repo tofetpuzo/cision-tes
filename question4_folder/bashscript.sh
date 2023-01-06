@@ -1,15 +1,9 @@
-sed -i -e "/service.log/ s/[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}/" 
+sed -i -e  s"/[a-zA-Z-]+[\w ] [a-zA-Z-][\w ] \d\d\d\d-\d\d-\d\d [a-zA-Z-]+ [T[0-9]+:[\d]+:[\d]+/g" | grep ^[A-Z] "/service.log/"
 
-sed -n 's/ThreadName/ErroFromThread/p' server.log
-s/pattern/replacement/flags
-
-sed 's!/bin/bash!/bin/csh!'
-
-sed '2,$s/dog/cat/' data1.txt
-
-$ sed '2{ s/fox/elephant/  s/dog/cat/
-
-sed -n '/^book/p'
-
-'s|*|[^]|' server.log
-sed 's/[][]//g'
+Output:
+# Jacob on 2002-01-03 visited T22:26:18 
+# Mark on 2002-02-14 visited T22:26:18 
+# Samantha on 1930-04-21 visited T22:26:18 
+# Lola on 2022-03-23 visited T22:26:39 
+# Loving on 2003-03-03 visited T22:26:18 
+# Agnes on 1902-02-02 visited T22:26:39

@@ -1,4 +1,5 @@
-
+### PROUCTION ACCCOUNT
+/* policy for account */
 resource "aws_iam_policy" "prod_s3" {
   name        = "prod_s3"
   description = "allow assuming prod_s3 role"
@@ -31,28 +32,6 @@ resource "aws_iam_policy_attachment" "s3_list_all" {
   roles      = ["${aws_iam_role.prod_list_s3.name}"]
   policy_arn = aws_iam_policy.s3_list_all.arn
   provider   = aws.prod
-}
-
-### PROUCTION ACCCOUNT
-/* policy for account */
-resource "aws_iam_policy" "prod_s3" {
-  name        = "prod_s3"
-  description = "allow assuming prod_s3 role"
-  policy = jsonencode({
-    Version = "cision-01",
-    Statement = [
-      {
-        Effect   = "Allow",
-        Action   = "sts:AssumeRole",
-        Resource = "arn:aws:iam::${data.aws_caller_identity.prod.account_id}:role/${aws_iam_role.prod_list_s3.name}"
-    }]
-  })
-}
-
-/* policy for user */
-resource "aws_iam_user_policy_attachment" "prod_s3" {
-  user       = aws_iam_user.cision_user.name
-  policy_arn = aws_iam_policy.prod_s3.arn
 }
 
 
