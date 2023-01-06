@@ -62,4 +62,4 @@ resource "aws_iam_policy_attachment" "administrators-attach" {
   groups     = ["${aws_iam_group.administrators.name}"]
   policy_arn = aws_iam_policy.prod_s3.arn
 }
-# user
+

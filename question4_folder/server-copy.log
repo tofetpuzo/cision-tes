@@ -1,0 +1,561 @@
+[2022-12-21T22:18:08.476+0000] [glassfish 6.2] [INFO] [NCLS-LOGGING-00009] [jakarta.enterprise.logging] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1671661088304] [timeMillis: 1671661088476] [levelValue: 800] [[
+  Running GlassFish Version: Eclipse GlassFish  6.2.5  (build 6.x-b66-g0159b68 2022-02-12T17:39:59+0000)]]
+
+[2022-12-21T22:18:08.480+0000] [glassfish 6.2] [INFO] [NCLS-LOGGING-00010] [jakarta.enterprise.logging] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1671661088304] [timeMillis: 1671661088480] [levelValue: 800] [[
+  Server log file is using Formatter class: com.sun.enterprise.server.logging.ODLLogFormatter]]
+
+[2022-12-21T22:18:08.676+0000] [glassfish 6.2] [INFO] [NCLS-SECURITY-01115] [jakarta.enterprise.system.core.security] [tid: _ThreadID=30 _ThreadName=RunLevelControllerThread-1671661088315] [timeMillis: 1671661088676] [levelValue: 800] [[
+  Realm [admin-realm] of classtype [com.sun.enterprise.security.auth.realm.file.FileRealm] successfully created.]]
+
+[2022-12-21T22:18:08.681+0000] [glassfish 6.2] [INFO] [NCLS-SECURITY-01115] [jakarta.enterprise.system.core.security] [tid: _ThreadID=30 _ThreadName=RunLevelControllerThread-1671661088315] [timeMillis: 1671661088681] [levelValue: 800] [[
+  Realm [file] of classtype [com.sun.enterprise.security.auth.realm.file.FileRealm] successfully created.]]
+
+[2022-12-21T22:18:08.691+0000] [glassfish 6.2] [INFO] [NCLS-SECURITY-01115] [jakarta.enterprise.system.core.security] [tid: _ThreadID=30 _ThreadName=RunLevelControllerThread-1671661088315] [timeMillis: 1671661088691] [levelValue: 800] [[
+  Realm [certificate] of classtype [com.sun.enterprise.security.auth.realm.certificate.CertificateRealm] successfully created.]]
+
+[2022-12-21T22:18:08.850+0000] [glassfish 6.2] [INFO] [] [org.glassfish.ha.store.spi.BackingStoreFactoryRegistry] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1671661088304] [timeMillis: 1671661088850] [levelValue: 800] [[
+  Registered org.glassfish.ha.store.adapter.cache.ShoalBackingStoreProxy for persistence-type = replicated in BackingStoreFactoryRegistry]]
+
+[2022-12-21T22:18:08.945+0000] [glassfish 6.2] [INFO] [] [org.hibernate.validator.internal.util.Version] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1671661088304] [timeMillis: 1671661088945] [levelValue: 800] [[
+  HV000001: Hibernate Validator 7.0.2.Final]]
+
+[2022-12-21T22:18:09.001+0000] [glassfish 6.2] [INFO] [SEC-SVCS-00100] [jakarta.enterprise.security.services] [tid: _ThreadID=29 _ThreadName=RunLevelControllerThread-1671661088315] [timeMillis: 1671661089001] [levelValue: 800] [[
+  Authorization Service has successfully initialized.]]
+
+[2022-12-21T22:18:09.266+0000] [glassfish 6.2] [INFO] [NCLS-CORE-00087] [jakarta.enterprise.system.core] [tid: _ThreadID=27 _ThreadName=RunLevelControllerThread-1671661088303] [timeMillis: 1671661089266] [levelValue: 800] [[
+  Grizzly Framework 3.0.1 started in: 56ms - bound to [/0.0.0.0:17371]]]
+
+[2022-12-21T22:18:09.308+0000] [glassfish 6.2] [INFO] [NCLS-CORE-00087] [jakarta.enterprise.system.core] [tid: _ThreadID=27 _ThreadName=RunLevelControllerThread-1671661088303] [timeMillis: 1671661089308] [levelValue: 800] [[
+  Grizzly Framework 3.0.1 started in: 1ms - bound to [/0.0.0.0:17372]]]
+
+[2022-12-21T22:18:09.332+0000] [glassfish 6.2] [INFO] [NCLS-CORE-00087] [jakarta.enterprise.system.core] [tid: _ThreadID=27 _ThreadName=RunLevelControllerThread-1671661088303] [timeMillis: 1671661089332] [levelValue: 800] [[
+  Grizzly Framework 3.0.1 started in: 7ms - bound to [/0.0.0.0:17339]]]
+
+[2022-12-21T22:18:09.395+0000] [glassfish 6.2] [INFO] [NCLS-CORE-00087] [jakarta.enterprise.system.core] [tid: _ThreadID=30 _ThreadName=RunLevelControllerThread-1671661088315] [timeMillis: 1671661089395] [levelValue: 800] [[
+  Grizzly Framework 3.0.1 started in: 6ms - bound to [/0.0.0.0:17328]]]
+
+[2022-12-21T22:18:09.637+0000] [glassfish 6.2] [INFO] [NCLS-CORE-00017] [jakarta.enterprise.system.core] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1671661089637] [levelValue: 800] [[
+  Eclipse GlassFish  6.2.5  (6.x-b66-g0159b68 2022-02-12T17:39:59+0000) startup time : Felix (3,391ms), startup services(1,343ms), total(4,734ms)]]
+
+[2022-12-21T22:18:10.055+0000] [glassfish 6.2] [INFO] [NCLS-JMX-00005] [jakarta.enterprise.system.jmx] [tid: _ThreadID=72 _ThreadName=Thread-13] [timeMillis: 1671661090055] [levelValue: 800] [[
+  JMXStartupService has started JMXConnector on JMXService URL service:jmx:rmi://192.168.1.191:17377/jndi/rmi://192.168.1.191:17377/jmxrmi]]
+
+[2022-12-21T22:18:10.101+0000] [glassfish 6.2] [INFO] [NCLS-CORE-00087] [jakarta.enterprise.system.core] [tid: _ThreadID=30 _ThreadName=RunLevelControllerThread-1671661088315] [timeMillis: 1671661090101] [levelValue: 800] [[
+  Grizzly Framework 3.0.1 started in: 1ms - bound to [/0.0.0.0:24967]]]
+
+[2022-12-21T22:18:10.103+0000] [glassfish 6.2] [INFO] [NCLS-BOOTSTRAP-00027] [jakarta.enterprise.bootstrap] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1671661090103] [levelValue: 800] [[
+  Registered com.sun.enterprise.glassfish.bootstrap.osgi.EmbeddedOSGiGlassFishImpl@546394ed as OSGi service registration: org.apache.felix.framework.ServiceRegistrationImpl@664212ab.]]
+
+[2022-12-21T22:18:10.139+0000] [glassfish 6.2] [INFO] [] [org.jvnet.hk2.osgiadapter] [tid: _ThreadID=22 _ThreadName=FelixStartLevel] [timeMillis: 1671661090139] [levelValue: 800] [[
+  Skipping registration of inhabitant for service reference [org.osgi.service.metatype.MetaTypeProvider] as the service object could not be obtained.]]
+
+[2022-12-21T22:18:12.338+0000] [glassfish 6.2] [INFO] [NCLS-CORE-00087] [jakarta.enterprise.system.core] [tid: _ThreadID=64 _ThreadName=pool-9-thread-1] [timeMillis: 1671661092338] [levelValue: 800] [[
+  Grizzly Framework 3.0.1 started in: 1ms - bound to [/0.0.0.0:17371]]]
+
+[2022-12-21T22:18:12.345+0000] [glassfish 6.2] [INFO] [NCLS-CORE-00087] [jakarta.enterprise.system.core] [tid: _ThreadID=64 _ThreadName=pool-9-thread-1] [timeMillis: 1671661092345] [levelValue: 800] [[
+  Grizzly Framework 3.0.1 started in: 1ms - bound to [/0.0.0.0:17372]]]
+
+[2022-12-21T22:18:12.741+0000] [glassfish 6.2] [INFO] [NCLS-CORE-00087] [jakarta.enterprise.system.core] [tid: _ThreadID=118 _ThreadName=pool-17-thread-1] [timeMillis: 1671661092741] [levelValue: 800] [[
+  Grizzly Framework 3.0.1 started in: 4ms - bound to [/0.0.0.0:17372]]]
+
+[2022-12-21T22:18:12.848+0000] [glassfish 6.2] [INFO] [] [jakarta.enterprise.system.tools.deployment.common] [tid: _ThreadID=117 _ThreadName=Thread-26] [timeMillis: 1671661092848] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2022-12-21T22:18:12.894+0000] [glassfish 6.2] [INFO] [] [jakarta.enterprise.system.tools.deployment.common] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1671661092894] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2022-12-21T22:18:13.574+0000] [glassfish 6.2] [INFO] [NCLS-SECURITY-01002] [jakarta.enterprise.system.core.security] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1671661093574] [levelValue: 800] [[
+  Java security manager is disabled.]]
+
+[2022-12-21T22:18:13.574+0000] [glassfish 6.2] [INFO] [NCLS-SECURITY-01010] [jakarta.enterprise.system.core.security] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1671661093574] [levelValue: 800] [[
+  Entering Security Startup Service.]]
+
+[2022-12-21T22:18:13.583+0000] [glassfish 6.2] [INFO] [NCLS-SECURITY-01143] [jakarta.enterprise.system.core.security] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1671661093583] [levelValue: 800] [[
+  Loading policy provider org.glassfish.exousia.modules.locked.SimplePolicyProvider.]]
+
+[2022-12-21T22:18:13.604+0000] [glassfish 6.2] [INFO] [NCLS-SECURITY-01011] [jakarta.enterprise.system.core.security] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1671661093604] [levelValue: 800] [[
+  Security Service(s) started successfully.]]
+
+[2022-12-21T22:18:13.791+0000] [glassfish 6.2] [INFO] [AS-WEB-GLUE-00198] [jakarta.enterprise.web] [tid: _ThreadID=117 _ThreadName=Thread-26] [timeMillis: 1671661093791] [levelValue: 800] [[
+  Created HTTP listener http-listener-1 on host/port 0.0.0.0:17371]]
+
+[2022-12-21T22:18:13.794+0000] [glassfish 6.2] [INFO] [AS-WEB-GLUE-00198] [jakarta.enterprise.web] [tid: _ThreadID=117 _ThreadName=Thread-26] [timeMillis: 1671661093794] [levelValue: 800] [[
+  Created HTTP listener http-listener-2 on host/port 0.0.0.0:17372]]
+
+[2022-12-21T22:18:13.796+0000] [glassfish 6.2] [INFO] [AS-WEB-GLUE-00198] [jakarta.enterprise.web] [tid: _ThreadID=117 _ThreadName=Thread-26] [timeMillis: 1671661093796] [levelValue: 800] [[
+  Created HTTP listener admin-listener on host/port 0.0.0.0:17339]]
+
+[2022-12-21T22:18:13.815+0000] [glassfish 6.2] [INFO] [AS-WEB-GLUE-00200] [jakarta.enterprise.web] [tid: _ThreadID=117 _ThreadName=Thread-26] [timeMillis: 1671661093815] [levelValue: 800] [[
+  Created virtual server server]]
+
+[2022-12-21T22:18:13.817+0000] [glassfish 6.2] [INFO] [AS-WEB-GLUE-00200] [jakarta.enterprise.web] [tid: _ThreadID=117 _ThreadName=Thread-26] [timeMillis: 1671661093817] [levelValue: 800] [[
+  Created virtual server __asadmin]]
+
+[2022-12-21T22:18:14.086+0000] [glassfish 6.2] [INFO] [AS-WEB-CORE-00306] [jakarta.enterprise.web.core] [tid: _ThreadID=117 _ThreadName=Thread-26] [timeMillis: 1671661094086] [levelValue: 800] [[
+  Setting JAAS app name glassfish-web]]
+
+[2022-12-21T22:18:14.087+0000] [glassfish 6.2] [INFO] [AS-WEB-GLUE-00201] [jakarta.enterprise.web] [tid: _ThreadID=117 _ThreadName=Thread-26] [timeMillis: 1671661094087] [levelValue: 800] [[
+  Virtual server server loaded default web module ]]
+
+[2022-12-21T22:18:14.444+0000] [glassfish 6.2] [INFO] [] [jakarta.enterprise.system.tools.deployment.common] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1671661094444] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2022-12-21T22:18:14.446+0000] [glassfish 6.2] [INFO] [] [jakarta.enterprise.system.tools.deployment.common] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1671661094446] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2022-12-21T22:18:14.648+0000] [glassfish 6.2] [INFO] [] [jakarta.enterprise.system.tools.deployment.common] [tid: _ThreadID=117 _ThreadName=Thread-26] [timeMillis: 1671661094648] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2022-12-21T22:18:14.675+0000] [glassfish 6.2] [INFO] [] [jakarta.enterprise.system.tools.deployment.common] [tid: _ThreadID=117 _ThreadName=Thread-26] [timeMillis: 1671661094675] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2022-12-21T22:18:14.676+0000] [glassfish 6.2] [INFO] [] [jakarta.enterprise.system.tools.deployment.common] [tid: _ThreadID=117 _ThreadName=Thread-26] [timeMillis: 1671661094676] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2022-12-21T22:18:14.694+0000] [glassfish 6.2] [INFO] [AS-WEB-GLUE-00172] [jakarta.enterprise.web] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1671661094694] [levelValue: 800] [[
+  Loading application [wed] at [/wed]]]
+
+[2022-12-21T22:18:14.728+0000] [glassfish 6.2] [INFO] [] [jakarta.enterprise.system.core] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1671661094728] [levelValue: 800] [[
+  wed was successfully deployed in 1,857 milliseconds.]]
+
+[2022-12-21T22:18:14.809+0000] [glassfish 6.2] [INFO] [AS-WEB-GLUE-00198] [jakarta.enterprise.web] [tid: _ThreadID=64 _ThreadName=pool-9-thread-1] [timeMillis: 1671661094809] [levelValue: 800] [[
+  Created HTTP listener http-listener-1 on host/port 0.0.0.0:17371]]
+
+[2022-12-21T22:18:15.307+0000] [glassfish 6.2] [INFO] [NCLS-REST-00001] [jakarta.enterprise.admin.rest] [tid: _ThreadID=52 _ThreadName=admin-listener(1)] [timeMillis: 1671661095307] [levelValue: 800] [[
+  Listening to REST requests at context: /management/domain.]]
+
+[2022-12-21T22:18:15.571+0000] [glassfish 6.2] [INFO] [jsf.config.listener.version] [jakarta.enterprise.resource.webcontainer.jsf.config] [tid: _ThreadID=117 _ThreadName=Thread-26] [timeMillis: 1671661095571] [levelValue: 800] [[
+  Initializing Mojarra 3.0.1 for context '']]
+
+[2022-12-21T22:18:16.163+0000] [glassfish 6.2] [INFO] [AS-WEB-GLUE-00172] [jakarta.enterprise.web] [tid: _ThreadID=117 _ThreadName=Thread-26] [timeMillis: 1671661096163] [levelValue: 800] [[
+  Loading application [__admingui] at [/]]]
+
+[2022-12-21T22:18:16.167+0000] [glassfish 6.2] [INFO] [NCLS-CORE-00022] [jakarta.enterprise.system.core] [tid: _ThreadID=117 _ThreadName=Thread-26] [timeMillis: 1671661096167] [levelValue: 800] [[
+  Loading application __admingui done in 3,727 ms]]
+
+[2022-12-21T22:18:16.169+0000] [glassfish 6.2] [INFO] [NCLS-CORE-00087] [jakarta.enterprise.system.core] [tid: _ThreadID=64 _ThreadName=pool-9-thread-1] [timeMillis: 1671661096169] [levelValue: 800] [[
+  Grizzly Framework 3.0.1 started in: 1ms - bound to [/0.0.0.0:17371]]]
+
+[2022-12-21T22:18:16.244+0000] [glassfish 6.2] [WARNING] [] [javax.enterprise.system.container.web.com.sun.web.security] [tid: _ThreadID=54 _ThreadName=admin-listener(3)] [timeMillis: 1671661096244] [levelValue: 900] [[
+  Context path from ServletContext:  differs from path from bundle: /]]
+
+[2022-12-21T22:21:02.897+0000] [glassfish 6.2] [INFO] [] [jakarta.enterprise.system.tools.deployment.common] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1671661262897] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2022-12-21T22:21:02.939+0000] [glassfish 6.2] [INFO] [] [jakarta.enterprise.system.tools.deployment.common] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1671661262939] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2022-12-21T22:21:02.941+0000] [glassfish 6.2] [INFO] [] [jakarta.enterprise.system.tools.deployment.common] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1671661262941] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2022-12-21T22:21:03.035+0000] [glassfish 6.2] [INFO] [AS-WEB-GLUE-00172] [jakarta.enterprise.web] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1671661263035] [levelValue: 800] [[
+  Loading application [wed] at [/wed]]]
+
+[2022-12-21T22:21:03.052+0000] [glassfish 6.2] [INFO] [] [jakarta.enterprise.system.core] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1671661263052] [levelValue: 800] [[
+  wed was successfully deployed in 257 milliseconds.]]
+
+[2022-12-21T22:21:03.577+0000] [glassfish 6.2] [INFO] [] [jakarta.enterprise.system.tools.deployment.common] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1671661263577] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2022-12-21T22:21:03.580+0000] [glassfish 6.2] [INFO] [] [jakarta.enterprise.system.tools.deployment.common] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1671661263580] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2022-12-21T22:21:03.581+0000] [glassfish 6.2] [INFO] [] [jakarta.enterprise.system.tools.deployment.common] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1671661263581] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2022-12-21T22:21:03.606+0000] [glassfish 6.2] [INFO] [AS-WEB-GLUE-00172] [jakarta.enterprise.web] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1671661263606] [levelValue: 800] [[
+  Loading application [wed] at [/wed]]]
+
+[2022-12-21T22:21:03.611+0000] [glassfish 6.2] [INFO] [] [jakarta.enterprise.system.core] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1671661263611] [levelValue: 800] [[
+  wed was successfully deployed in 57 milliseconds.]]
+
+[2022-12-21T22:23:06.148+0000] [glassfish 6.2] [INFO] [] [jakarta.enterprise.system.tools.deployment.common] [tid: _ThreadID=52 _ThreadName=admin-listener(1)] [timeMillis: 1671661386148] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2022-12-21T22:23:06.152+0000] [glassfish 6.2] [INFO] [] [jakarta.enterprise.system.tools.deployment.common] [tid: _ThreadID=52 _ThreadName=admin-listener(1)] [timeMillis: 1671661386152] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2022-12-21T22:23:06.154+0000] [glassfish 6.2] [INFO] [] [jakarta.enterprise.system.tools.deployment.common] [tid: _ThreadID=52 _ThreadName=admin-listener(1)] [timeMillis: 1671661386154] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2022-12-21T22:23:06.214+0000] [glassfish 6.2] [INFO] [AS-WEB-GLUE-00172] [jakarta.enterprise.web] [tid: _ThreadID=52 _ThreadName=admin-listener(1)] [timeMillis: 1671661386214] [levelValue: 800] [[
+  Loading application [wed] at [/wed]]]
+
+[2022-12-21T22:23:06.229+0000] [glassfish 6.2] [INFO] [] [jakarta.enterprise.system.core] [tid: _ThreadID=52 _ThreadName=admin-listener(1)] [timeMillis: 1671661386229] [levelValue: 800] [[
+  wed was successfully deployed in 134 milliseconds.]]
+
+[2022-12-21T22:23:06.801+0000] [glassfish 6.2] [INFO] [] [jakarta.enterprise.system.tools.deployment.common] [tid: _ThreadID=52 _ThreadName=admin-listener(1)] [timeMillis: 1671661386801] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2022-12-21T22:23:06.803+0000] [glassfish 6.2] [INFO] [] [jakarta.enterprise.system.tools.deployment.common] [tid: _ThreadID=52 _ThreadName=admin-listener(1)] [timeMillis: 1671661386803] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2022-12-21T22:23:06.804+0000] [glassfish 6.2] [INFO] [] [jakarta.enterprise.system.tools.deployment.common] [tid: _ThreadID=52 _ThreadName=admin-listener(1)] [timeMillis: 1671661386804] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2022-12-21T22:23:06.829+0000] [glassfish 6.2] [INFO] [AS-WEB-GLUE-00172] [jakarta.enterprise.web] [tid: _ThreadID=52 _ThreadName=admin-listener(1)] [timeMillis: 1671661386829] [levelValue: 800] [[
+  Loading application [wed] at [/wed]]]
+
+[2022-12-21T22:23:06.834+0000] [glassfish 6.2] [INFO] [] [jakarta.enterprise.system.core] [tid: _ThreadID=52 _ThreadName=admin-listener(1)] [timeMillis: 1671661386834] [levelValue: 800] [[
+  wed was successfully deployed in 52 milliseconds.]]
+
+[2022-12-21T22:23:27.067+0000] [glassfish 6.2] [INFO] [] [jakarta.enterprise.system.tools.deployment.common] [tid: _ThreadID=54 _ThreadName=admin-listener(3)] [timeMillis: 1671661407067] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2022-12-21T22:23:27.086+0000] [glassfish 6.2] [INFO] [] [jakarta.enterprise.system.tools.deployment.common] [tid: _ThreadID=54 _ThreadName=admin-listener(3)] [timeMillis: 1671661407086] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2022-12-21T22:23:27.089+0000] [glassfish 6.2] [INFO] [] [jakarta.enterprise.system.tools.deployment.common] [tid: _ThreadID=54 _ThreadName=admin-listener(3)] [timeMillis: 1671661407089] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2022-12-21T22:23:27.218+0000] [glassfish 6.2] [WARNING] [] [javax.enterprise.resource.resourceadapter.org.glassfish.jdbc.util] [tid: _ThreadID=54 _ThreadName=admin-listener(3)] [timeMillis: 1671661407218] [levelValue: 900] [[
+  using.default.ds]]
+
+[2022-12-21T22:23:27.317+0000] [glassfish 6.2] [INFO] [] [jakarta.enterprise.system.tools.deployment.dol] [tid: _ThreadID=54 _ThreadName=admin-listener(3)] [timeMillis: 1671661407317] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2022-12-21T22:23:27.648+0000] [glassfish 6.2] [INFO] [] [jakarta.enterprise.system.tools.deployment.dol] [tid: _ThreadID=54 _ThreadName=admin-listener(3)] [timeMillis: 1671661407648] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2022-12-21T22:23:27.813+0000] [glassfish 6.2] [WARNING] [] [javax.enterprise.resource.resourceadapter.org.glassfish.jdbc.util] [tid: _ThreadID=54 _ThreadName=admin-listener(3)] [timeMillis: 1671661407813] [levelValue: 900] [[
+  using.default.ds]]
+
+[2022-12-21T22:23:27.857+0000] [glassfish 6.2] [INFO] [AS-WEB-GLUE-00172] [jakarta.enterprise.web] [tid: _ThreadID=54 _ThreadName=admin-listener(3)] [timeMillis: 1671661407857] [levelValue: 800] [[
+  Loading application [wed] at [/wed]]]
+
+[2022-12-21T22:23:27.910+0000] [glassfish 6.2] [INFO] [] [jakarta.enterprise.system.core] [tid: _ThreadID=54 _ThreadName=admin-listener(3)] [timeMillis: 1671661407910] [levelValue: 800] [[
+  wed was successfully deployed in 1,010 milliseconds.]]
+
+[2022-12-21T22:23:28.600+0000] [glassfish 6.2] [INFO] [] [jakarta.enterprise.system.tools.deployment.common] [tid: _ThreadID=54 _ThreadName=admin-listener(3)] [timeMillis: 1671661408600] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2022-12-21T22:23:28.609+0000] [glassfish 6.2] [INFO] [] [jakarta.enterprise.system.tools.deployment.common] [tid: _ThreadID=54 _ThreadName=admin-listener(3)] [timeMillis: 1671661408609] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2022-12-21T22:23:28.611+0000] [glassfish 6.2] [INFO] [] [jakarta.enterprise.system.tools.deployment.common] [tid: _ThreadID=54 _ThreadName=admin-listener(3)] [timeMillis: 1671661408611] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2022-12-21T22:23:28.646+0000] [glassfish 6.2] [WARNING] [] [javax.enterprise.resource.resourceadapter.org.glassfish.jdbc.util] [tid: _ThreadID=54 _ThreadName=admin-listener(3)] [timeMillis: 1671661408646] [levelValue: 900] [[
+  using.default.ds]]
+
+[2022-12-21T22:23:28.655+0000] [glassfish 6.2] [WARNING] [] [javax.enterprise.resource.resourceadapter.org.glassfish.jdbc.util] [tid: _ThreadID=54 _ThreadName=admin-listener(3)] [timeMillis: 1671661408655] [levelValue: 900] [[
+  using.default.ds]]
+
+[2022-12-21T22:23:28.704+0000] [glassfish 6.2] [INFO] [AS-WEB-GLUE-00172] [jakarta.enterprise.web] [tid: _ThreadID=54 _ThreadName=admin-listener(3)] [timeMillis: 1671661408704] [levelValue: 800] [[
+  Loading application [wed] at [/wed]]]
+
+[2022-12-21T22:23:28.740+0000] [glassfish 6.2] [INFO] [] [jakarta.enterprise.system.core] [tid: _ThreadID=54 _ThreadName=admin-listener(3)] [timeMillis: 1671661408740] [levelValue: 800] [[
+  wed was successfully deployed in 222 milliseconds.]]
+
+[2022-12-21T22:23:31.122+0000] [glassfish 6.2] [INFO] [] [jakarta.enterprise.system.tools.deployment.common] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1671661411122] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2022-12-21T22:23:31.138+0000] [glassfish 6.2] [INFO] [] [jakarta.enterprise.system.tools.deployment.common] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1671661411138] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2022-12-21T22:23:31.141+0000] [glassfish 6.2] [INFO] [] [jakarta.enterprise.system.tools.deployment.common] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1671661411141] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2022-12-21T22:23:31.173+0000] [glassfish 6.2] [WARNING] [] [javax.enterprise.resource.resourceadapter.org.glassfish.jdbc.util] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1671661411173] [levelValue: 900] [[
+  using.default.ds]]
+
+[2022-12-21T22:23:31.182+0000] [glassfish 6.2] [WARNING] [] [javax.enterprise.resource.resourceadapter.org.glassfish.jdbc.util] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1671661411182] [levelValue: 900] [[
+  using.default.ds]]
+
+[2022-12-21T22:23:31.236+0000] [glassfish 6.2] [INFO] [AS-WEB-GLUE-00172] [jakarta.enterprise.web] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1671661411236] [levelValue: 800] [[
+  Loading application [wed] at [/wed]]]
+
+[2022-12-21T22:23:31.281+0000] [glassfish 6.2] [INFO] [] [jakarta.enterprise.system.core] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1671661411281] [levelValue: 800] [[
+  wed was successfully deployed in 247 milliseconds.]]
+
+[2022-12-21T22:24:45.769+0000] [glassfish 6.2] [INFO] [] [jakarta.enterprise.system.tools.deployment.common] [tid: _ThreadID=53 _ThreadName=admin-listener(2)] [timeMillis: 1671661485769] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2022-12-21T22:24:45.780+0000] [glassfish 6.2] [INFO] [] [jakarta.enterprise.system.tools.deployment.common] [tid: _ThreadID=53 _ThreadName=admin-listener(2)] [timeMillis: 1671661485780] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2022-12-21T22:24:45.782+0000] [glassfish 6.2] [INFO] [] [jakarta.enterprise.system.tools.deployment.common] [tid: _ThreadID=53 _ThreadName=admin-listener(2)] [timeMillis: 1671661485782] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2022-12-21T22:24:45.811+0000] [glassfish 6.2] [WARNING] [] [javax.enterprise.resource.resourceadapter.org.glassfish.jdbc.util] [tid: _ThreadID=53 _ThreadName=admin-listener(2)] [timeMillis: 1671661485811] [levelValue: 900] [[
+  using.default.ds]]
+
+[2022-12-21T22:24:45.818+0000] [glassfish 6.2] [WARNING] [] [javax.enterprise.resource.resourceadapter.org.glassfish.jdbc.util] [tid: _ThreadID=53 _ThreadName=admin-listener(2)] [timeMillis: 1671661485818] [levelValue: 900] [[
+  using.default.ds]]
+
+[2022-12-21T22:24:45.867+0000] [glassfish 6.2] [INFO] [AS-WEB-GLUE-00172] [jakarta.enterprise.web] [tid: _ThreadID=53 _ThreadName=admin-listener(2)] [timeMillis: 1671661485867] [levelValue: 800] [[
+  Loading application [wed] at [/wed]]]
+
+[2022-12-21T22:24:45.903+0000] [glassfish 6.2] [INFO] [] [jakarta.enterprise.system.core] [tid: _ThreadID=53 _ThreadName=admin-listener(2)] [timeMillis: 1671661485903] [levelValue: 800] [[
+  wed was successfully deployed in 210 milliseconds.]]
+
+[2022-12-21T22:25:21.955+0000] [glassfish 6.2] [INFO] [] [jakarta.enterprise.system.tools.deployment.common] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1671661521955] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2022-12-21T22:25:21.959+0000] [glassfish 6.2] [INFO] [] [jakarta.enterprise.system.tools.deployment.common] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1671661521959] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2022-12-21T22:25:21.960+0000] [glassfish 6.2] [INFO] [] [jakarta.enterprise.system.tools.deployment.common] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1671661521960] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2022-12-21T22:25:21.974+0000] [glassfish 6.2] [WARNING] [] [javax.enterprise.resource.resourceadapter.org.glassfish.jdbc.util] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1671661521974] [levelValue: 900] [[
+  using.default.ds]]
+
+[2022-12-21T22:25:21.977+0000] [glassfish 6.2] [WARNING] [] [javax.enterprise.resource.resourceadapter.org.glassfish.jdbc.util] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1671661521977] [levelValue: 900] [[
+  using.default.ds]]
+
+[2022-12-21T22:25:22.001+0000] [glassfish 6.2] [INFO] [AS-WEB-GLUE-00172] [jakarta.enterprise.web] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1671661522001] [levelValue: 800] [[
+  Loading application [wed] at [/wed]]]
+
+[2022-12-21T22:25:22.012+0000] [glassfish 6.2] [INFO] [] [jakarta.enterprise.system.core] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1671661522012] [levelValue: 800] [[
+  wed was successfully deployed in 96 milliseconds.]]
+
+[2022-12-21T22:26:18.595+0000] [glassfish 6.2] [INFO] [] [jakarta.enterprise.system.tools.deployment.common] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1671661578595] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2022-12-21T22:26:18.599+0000] [glassfish 6.2] [INFO] [] [jakarta.enterprise.system.tools.deployment.common] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1671661578599] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2022-12-21T22:26:18.599+0000] [glassfish 6.2] [INFO] [] [jakarta.enterprise.system.tools.deployment.common] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1671661578599] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2022-12-21T22:26:18.613+0000] [glassfish 6.2] [WARNING] [] [javax.enterprise.resource.resourceadapter.org.glassfish.jdbc.util] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1671661578613] [levelValue: 900] [[
+  using.default.ds]]
+
+[2022-12-21T22:26:18.615+0000] [glassfish 6.2] [WARNING] [] [javax.enterprise.resource.resourceadapter.org.glassfish.jdbc.util] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1671661578615] [levelValue: 900] [[
+  using.default.ds]]
+
+[2022-12-21T22:26:18.638+0000] [glassfish 6.2] [INFO] [AS-WEB-GLUE-00172] [jakarta.enterprise.web] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1671661578638] [levelValue: 800] [[
+  Loading application [wed] at [/wed]]]
+
+[2022-12-21T22:26:18.647+0000] [glassfish 6.2] [INFO] [] [jakarta.enterprise.system.core] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1671661578647] [levelValue: 800] [[
+  wed was successfully deployed in 89 milliseconds.]]
+
+[2022-12-21T22:26:39.273+0000] [glassfish 6.2] [INFO] [] [jakarta.enterprise.system.tools.deployment.common] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1671661599273] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2022-12-21T22:26:39.279+0000] [glassfish 6.2] [INFO] [] [jakarta.enterprise.system.tools.deployment.common] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1671661599279] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2022-12-21T22:26:39.280+0000] [glassfish 6.2] [INFO] [] [jakarta.enterprise.system.tools.deployment.common] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1671661599280] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2022-12-21T22:26:39.298+0000] [glassfish 6.2] [WARNING] [] [javax.enterprise.resource.resourceadapter.org.glassfish.jdbc.util] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1671661599298] [levelValue: 900] [[
+  using.default.ds]]
+
+[2022-12-21T22:26:39.305+0000] [glassfish 6.2] [WARNING] [] [javax.enterprise.resource.resourceadapter.org.glassfish.jdbc.util] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1671661599305] [levelValue: 900] [[
+  using.default.ds]]
+
+[2022-12-21T22:26:39.345+0000] [glassfish 6.2] [INFO] [AS-WEB-GLUE-00172] [jakarta.enterprise.web] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1671661599345] [levelValue: 800] [[
+  Loading application [wed] at [/wed]]]
+
+[2022-12-21T22:26:39.361+0000] [glassfish 6.2] [INFO] [] [jakarta.enterprise.system.core] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1671661599361] [levelValue: 800] [[
+  wed was successfully deployed in 133 milliseconds.]]
+
+[2022-12-21T22:26:39.860+0000] [glassfish 6.2] [INFO] [] [jakarta.enterprise.system.tools.deployment.common] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1671661599860] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2022-12-21T22:26:39.865+0000] [glassfish 6.2] [INFO] [] [jakarta.enterprise.system.tools.deployment.common] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1671661599865] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2022-12-21T22:26:39.867+0000] [glassfish 6.2] [INFO] [] [jakarta.enterprise.system.tools.deployment.common] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1671661599867] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2022-12-21T22:26:39.881+0000] [glassfish 6.2] [WARNING] [] [javax.enterprise.resource.resourceadapter.org.glassfish.jdbc.util] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1671661599881] [levelValue: 900] [[
+  using.default.ds]]
+
+[2022-12-21T22:26:39.884+0000] [glassfish 6.2] [WARNING] [] [javax.enterprise.resource.resourceadapter.org.glassfish.jdbc.util] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1671661599884] [levelValue: 900] [[
+  using.default.ds]]
+
+[2022-12-21T22:26:39.907+0000] [glassfish 6.2] [INFO] [AS-WEB-GLUE-00172] [jakarta.enterprise.web] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1671661599907] [levelValue: 800] [[
+  Loading application [wed] at [/wed]]]
+
+[2022-12-21T22:26:39.916+0000] [glassfish 6.2] [INFO] [] [jakarta.enterprise.system.core] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1671661599916] [levelValue: 800] [[
+  wed was successfully deployed in 85 milliseconds.]]
+
+[2022-12-21T22:26:47.543+0000] [glassfish 6.2] [INFO] [] [jakarta.enterprise.system.tools.deployment.common] [tid: _ThreadID=53 _ThreadName=admin-listener(2)] [timeMillis: 1671661607543] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2022-12-21T22:26:47.546+0000] [glassfish 6.2] [INFO] [] [jakarta.enterprise.system.tools.deployment.common] [tid: _ThreadID=53 _ThreadName=admin-listener(2)] [timeMillis: 1671661607546] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2022-12-21T22:26:47.547+0000] [glassfish 6.2] [INFO] [] [jakarta.enterprise.system.tools.deployment.common] [tid: _ThreadID=53 _ThreadName=admin-listener(2)] [timeMillis: 1671661607547] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2022-12-21T22:26:47.561+0000] [glassfish 6.2] [WARNING] [] [javax.enterprise.resource.resourceadapter.org.glassfish.jdbc.util] [tid: _ThreadID=53 _ThreadName=admin-listener(2)] [timeMillis: 1671661607561] [levelValue: 900] [[
+  using.default.ds]]
+
+[2022-12-21T22:26:47.564+0000] [glassfish 6.2] [WARNING] [] [javax.enterprise.resource.resourceadapter.org.glassfish.jdbc.util] [tid: _ThreadID=53 _ThreadName=admin-listener(2)] [timeMillis: 1671661607564] [levelValue: 900] [[
+  using.default.ds]]
+
+[2022-12-21T22:26:47.590+0000] [glassfish 6.2] [INFO] [AS-WEB-GLUE-00172] [jakarta.enterprise.web] [tid: _ThreadID=53 _ThreadName=admin-listener(2)] [timeMillis: 1671661607590] [levelValue: 800] [[
+  Loading application [wed] at [/wed]]]
+
+[2022-12-21T22:26:47.597+0000] [glassfish 6.2] [INFO] [] [jakarta.enterprise.system.core] [tid: _ThreadID=53 _ThreadName=admin-listener(2)] [timeMillis: 1671661607597] [levelValue: 800] [[
+  wed was successfully deployed in 92 milliseconds.]]
+
+[2022-12-21T22:33:27.041+0000] [glassfish 6.2] [INFO] [NCLS-CORE-00092] [jakarta.enterprise.system.core] [tid: _ThreadID=389 _ThreadName=Thread-48] [timeMillis: 1671662007041] [levelValue: 800] [[
+  Server shutdown initiated]]
+
+[2022-12-21T22:33:27.060+0000] [glassfish 6.2] [INFO] [NCLS-BOOTSTRAP-00028] [jakarta.enterprise.bootstrap] [tid: _ThreadID=389 _ThreadName=Thread-48] [timeMillis: 1671662007060] [levelValue: 800] [[
+  Unregistered com.sun.enterprise.glassfish.bootstrap.osgi.EmbeddedOSGiGlassFishImpl@546394ed from service registry.]]
+
+[2022-12-21T22:33:27.061+0000] [glassfish 6.2] [INFO] [] [] [tid: _ThreadID=389 _ThreadName=Thread-7] [timeMillis: 1671662007061] [levelValue: 800] [[
+  FileMonitoring shutdown]]
+
+[2022-12-21T22:33:27.073+0000] [glassfish 6.2] [INFO] [NCLS-JMX-00002] [jakarta.enterprise.system.jmx] [tid: _ThreadID=389 _ThreadName=Thread-48] [timeMillis: 1671662007073] [levelValue: 800] [[
+  JMXStartupService: Stopped JMXConnectorServer: null]]
+
+[2022-12-21T22:33:27.074+0000] [glassfish 6.2] [INFO] [NCLS-JMX-00001] [jakarta.enterprise.system.jmx] [tid: _ThreadID=389 _ThreadName=Thread-48] [timeMillis: 1671662007074] [levelValue: 800] [[
+  JMXStartupService and JMXConnectors have been shut down.]]
+
+[2022-12-21T22:33:27.084+0000] [glassfish 6.2] [INFO] [NCLS-CORE-00092] [jakarta.enterprise.system.core] [tid: _ThreadID=395 _ThreadName=Thread-54] [timeMillis: 1671662007084] [levelValue: 800] [[
+  Server shutdown initiated]]
+
+[2022-12-21T22:33:27.175+0000] [glassfish 6.2] [INFO] [] [] [tid: _ThreadID=393 _ThreadName=Thread-7] [timeMillis: 1671662007175] [levelValue: 800] [[
+  JdbcRuntimeExtension,  getAllSystemRAResourcesAndPools = [GlassFishConfigBean.org.glassfish.jdbc.config.JdbcResource, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcResource, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcResource, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcConnectionPool, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcConnectionPool, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcConnectionPool]]]
+
+[2022-12-21T22:33:27.179+0000] [glassfish 6.2] [INFO] [ra.stop-successful] [javax.enterprise.resource.resourceadapter.com.sun.enterprise.connectors.service] [tid: _ThreadID=397 _ThreadName=Thread-56] [timeMillis: 1671662007179] [levelValue: 800] [[
+  RAR7094: __ds_jdbc_ra shutdown successful.]]
+
+[2023-01-01T21:37:30.014+0000] [glassfish 6.2] [INFO] [NCLS-LOGGING-00009] [jakarta.enterprise.logging] [tid: _ThreadID=30 _ThreadName=RunLevelControllerThread-1672609049956] [timeMillis: 1672609050014] [levelValue: 800] [[
+  Running GlassFish Version: Eclipse GlassFish  6.2.5  (build 6.x-b66-g0159b68 2022-02-12T17:39:59+0000)]]
+
+[2023-01-01T21:37:30.015+0000] [glassfish 6.2] [INFO] [NCLS-LOGGING-00010] [jakarta.enterprise.logging] [tid: _ThreadID=30 _ThreadName=RunLevelControllerThread-1672609049956] [timeMillis: 1672609050015] [levelValue: 800] [[
+  Server log file is using Formatter class: com.sun.enterprise.server.logging.ODLLogFormatter]]
+
+[2023-01-01T21:37:30.067+0000] [glassfish 6.2] [INFO] [NCLS-SECURITY-01115] [jakarta.enterprise.system.core.security] [tid: _ThreadID=32 _ThreadName=RunLevelControllerThread-1672609049959] [timeMillis: 1672609050067] [levelValue: 800] [[
+  Realm [admin-realm] of classtype [com.sun.enterprise.security.auth.realm.file.FileRealm] successfully created.]]
+
+[2023-01-01T21:37:30.068+0000] [glassfish 6.2] [INFO] [NCLS-SECURITY-01115] [jakarta.enterprise.system.core.security] [tid: _ThreadID=32 _ThreadName=RunLevelControllerThread-1672609049959] [timeMillis: 1672609050068] [levelValue: 800] [[
+  Realm [file] of classtype [com.sun.enterprise.security.auth.realm.file.FileRealm] successfully created.]]
+
+[2023-01-01T21:37:30.071+0000] [glassfish 6.2] [INFO] [NCLS-SECURITY-01115] [jakarta.enterprise.system.core.security] [tid: _ThreadID=32 _ThreadName=RunLevelControllerThread-1672609049959] [timeMillis: 1672609050071] [levelValue: 800] [[
+  Realm [certificate] of classtype [com.sun.enterprise.security.auth.realm.certificate.CertificateRealm] successfully created.]]
+
+[2023-01-01T21:37:30.120+0000] [glassfish 6.2] [INFO] [] [org.glassfish.ha.store.spi.BackingStoreFactoryRegistry] [tid: _ThreadID=29 _ThreadName=RunLevelControllerThread-1672609049956] [timeMillis: 1672609050120] [levelValue: 800] [[
+  Registered org.glassfish.ha.store.adapter.cache.ShoalBackingStoreProxy for persistence-type = replicated in BackingStoreFactoryRegistry]]
+
+[2023-01-01T21:37:30.169+0000] [glassfish 6.2] [INFO] [SEC-SVCS-00100] [jakarta.enterprise.security.services] [tid: _ThreadID=29 _ThreadName=RunLevelControllerThread-1672609049956] [timeMillis: 1672609050169] [levelValue: 800] [[
+  Authorization Service has successfully initialized.]]
+
+[2023-01-01T21:37:30.228+0000] [glassfish 6.2] [INFO] [NCLS-CORE-00087] [jakarta.enterprise.system.core] [tid: _ThreadID=32 _ThreadName=RunLevelControllerThread-1672609049959] [timeMillis: 1672609050228] [levelValue: 800] [[
+  Grizzly Framework 3.0.1 started in: 18ms - bound to [/0.0.0.0:17371]]]
+
+[2023-01-01T21:37:30.238+0000] [glassfish 6.2] [INFO] [NCLS-CORE-00087] [jakarta.enterprise.system.core] [tid: _ThreadID=32 _ThreadName=RunLevelControllerThread-1672609049959] [timeMillis: 1672609050238] [levelValue: 800] [[
+  Grizzly Framework 3.0.1 started in: 1ms - bound to [/0.0.0.0:17372]]]
+
+[2023-01-01T21:37:30.240+0000] [glassfish 6.2] [INFO] [NCLS-CORE-00087] [jakarta.enterprise.system.core] [tid: _ThreadID=32 _ThreadName=RunLevelControllerThread-1672609049959] [timeMillis: 1672609050240] [levelValue: 800] [[
+  Grizzly Framework 3.0.1 started in: 0ms - bound to [/0.0.0.0:17339]]]
+
+[2023-01-01T21:37:30.254+0000] [glassfish 6.2] [INFO] [NCLS-CORE-00087] [jakarta.enterprise.system.core] [tid: _ThreadID=31 _ThreadName=RunLevelControllerThread-1672609049959] [timeMillis: 1672609050254] [levelValue: 800] [[
+  Grizzly Framework 3.0.1 started in: 0ms - bound to [/0.0.0.0:17328]]]
+
+[2023-01-01T21:37:30.255+0000] [glassfish 6.2] [INFO] [NCLS-CORE-00017] [jakarta.enterprise.system.core] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1672609050255] [levelValue: 800] [[
+  Eclipse GlassFish  6.2.5  (6.x-b66-g0159b68 2022-02-12T17:39:59+0000) startup time : Felix (1,006ms), startup services(301ms), total(1,307ms)]]
+
+[2023-01-01T21:37:30.333+0000] [glassfish 6.2] [INFO] [NCLS-CORE-00087] [jakarta.enterprise.system.core] [tid: _ThreadID=29 _ThreadName=RunLevelControllerThread-1672609049956] [timeMillis: 1672609050333] [levelValue: 800] [[
+  Grizzly Framework 3.0.1 started in: 0ms - bound to [/0.0.0.0:24967]]]
+
+[2023-01-01T21:37:30.334+0000] [glassfish 6.2] [INFO] [NCLS-BOOTSTRAP-00027] [jakarta.enterprise.bootstrap] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1672609050334] [levelValue: 800] [[
+  Registered com.sun.enterprise.glassfish.bootstrap.osgi.EmbeddedOSGiGlassFishImpl@4d6f623d as OSGi service registration: org.apache.felix.framework.ServiceRegistrationImpl@aa21042.]]
+
+[2023-01-01T21:37:30.349+0000] [glassfish 6.2] [INFO] [] [org.jvnet.hk2.osgiadapter] [tid: _ThreadID=24 _ThreadName=FelixStartLevel] [timeMillis: 1672609050349] [levelValue: 800] [[
+  Skipping registration of inhabitant for service reference [org.osgi.service.metatype.MetaTypeProvider] as the service object could not be obtained.]]
+
+[2023-01-01T21:37:30.363+0000] [glassfish 6.2] [INFO] [NCLS-JMX-00005] [jakarta.enterprise.system.jmx] [tid: _ThreadID=66 _ThreadName=Thread-13] [timeMillis: 1672609050363] [levelValue: 800] [[
+  JMXStartupService has started JMXConnector on JMXService URL service:jmx:rmi://192.168.1.191:17377/jndi/rmi://192.168.1.191:17377/jmxrmi]]
+
+[2023-01-01T21:37:33.860+0000] [glassfish 6.2] [INFO] [] [org.hibernate.validator.internal.util.Version] [tid: _ThreadID=57 _ThreadName=admin-listener(3)] [timeMillis: 1672609053860] [levelValue: 800] [[
+  HV000001: Hibernate Validator 7.0.2.Final]]
+
+[2023-01-01T21:37:33.955+0000] [glassfish 6.2] [INFO] [NCLS-CORE-00087] [jakarta.enterprise.system.core] [tid: _ThreadID=98 _ThreadName=pool-13-thread-1] [timeMillis: 1672609053955] [levelValue: 800] [[
+  Grizzly Framework 3.0.1 started in: 0ms - bound to [/0.0.0.0:17371]]]
+
+[2023-01-01T21:37:33.958+0000] [glassfish 6.2] [INFO] [NCLS-CORE-00087] [jakarta.enterprise.system.core] [tid: _ThreadID=98 _ThreadName=pool-13-thread-1] [timeMillis: 1672609053958] [levelValue: 800] [[
+  Grizzly Framework 3.0.1 started in: 0ms - bound to [/0.0.0.0:17372]]]
+
+[2023-01-01T21:37:34.138+0000] [glassfish 6.2] [INFO] [NCLS-CORE-00087] [jakarta.enterprise.system.core] [tid: _ThreadID=97 _ThreadName=pool-11-thread-1] [timeMillis: 1672609054138] [levelValue: 800] [[
+  Grizzly Framework 3.0.1 started in: 1ms - bound to [/0.0.0.0:17372]]]
+
+[2023-01-01T21:37:34.172+0000] [glassfish 6.2] [INFO] [] [jakarta.enterprise.system.tools.deployment.common] [tid: _ThreadID=116 _ThreadName=Thread-24] [timeMillis: 1672609054172] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2023-01-01T21:37:34.190+0000] [glassfish 6.2] [INFO] [NCLS-CORE-00087] [jakarta.enterprise.system.core] [tid: _ThreadID=95 _ThreadName=pool-10-thread-1] [timeMillis: 1672609054190] [levelValue: 800] [[
+  Grizzly Framework 3.0.1 started in: 0ms - bound to [/0.0.0.0:17371]]]
+
+[2023-01-01T21:37:34.415+0000] [glassfish 6.2] [INFO] [AS-WEB-GLUE-00198] [jakarta.enterprise.web] [tid: _ThreadID=116 _ThreadName=Thread-24] [timeMillis: 1672609054415] [levelValue: 800] [[
+  Created HTTP listener http-listener-1 on host/port 0.0.0.0:17371]]
+
+[2023-01-01T21:37:34.417+0000] [glassfish 6.2] [INFO] [AS-WEB-GLUE-00198] [jakarta.enterprise.web] [tid: _ThreadID=116 _ThreadName=Thread-24] [timeMillis: 1672609054417] [levelValue: 800] [[
+  Created HTTP listener http-listener-2 on host/port 0.0.0.0:17372]]
+
+[2023-01-01T21:37:34.418+0000] [glassfish 6.2] [INFO] [AS-WEB-GLUE-00198] [jakarta.enterprise.web] [tid: _ThreadID=116 _ThreadName=Thread-24] [timeMillis: 1672609054418] [levelValue: 800] [[
+  Created HTTP listener admin-listener on host/port 0.0.0.0:17339]]
+
+[2023-01-01T21:37:34.426+0000] [glassfish 6.2] [INFO] [AS-WEB-GLUE-00200] [jakarta.enterprise.web] [tid: _ThreadID=116 _ThreadName=Thread-24] [timeMillis: 1672609054426] [levelValue: 800] [[
+  Created virtual server server]]
+
+[2023-01-01T21:37:34.427+0000] [glassfish 6.2] [INFO] [AS-WEB-GLUE-00200] [jakarta.enterprise.web] [tid: _ThreadID=116 _ThreadName=Thread-24] [timeMillis: 1672609054427] [levelValue: 800] [[
+  Created virtual server __asadmin]]
+
+[2023-01-01T21:37:34.500+0000] [glassfish 6.2] [INFO] [AS-WEB-CORE-00306] [jakarta.enterprise.web.core] [tid: _ThreadID=116 _ThreadName=Thread-24] [timeMillis: 1672609054500] [levelValue: 800] [[
+  Setting JAAS app name glassfish-web]]
+
+[2023-01-01T21:37:34.500+0000] [glassfish 6.2] [INFO] [AS-WEB-GLUE-00201] [jakarta.enterprise.web] [tid: _ThreadID=116 _ThreadName=Thread-24] [timeMillis: 1672609054500] [levelValue: 800] [[
+  Virtual server server loaded default web module ]]
+
+[2023-01-01T21:37:34.634+0000] [glassfish 6.2] [INFO] [NCLS-SECURITY-01002] [jakarta.enterprise.system.core.security] [tid: _ThreadID=116 _ThreadName=Thread-24] [timeMillis: 1672609054634] [levelValue: 800] [[
+  Java security manager is disabled.]]
+
+[2023-01-01T21:37:34.634+0000] [glassfish 6.2] [INFO] [NCLS-SECURITY-01010] [jakarta.enterprise.system.core.security] [tid: _ThreadID=116 _ThreadName=Thread-24] [timeMillis: 1672609054634] [levelValue: 800] [[
+  Entering Security Startup Service.]]
+
+[2023-01-01T21:37:34.640+0000] [glassfish 6.2] [INFO] [NCLS-SECURITY-01143] [jakarta.enterprise.system.core.security] [tid: _ThreadID=116 _ThreadName=Thread-24] [timeMillis: 1672609054640] [levelValue: 800] [[
+  Loading policy provider org.glassfish.exousia.modules.locked.SimplePolicyProvider.]]
+
+[2023-01-01T21:37:34.654+0000] [glassfish 6.2] [INFO] [NCLS-SECURITY-01011] [jakarta.enterprise.system.core.security] [tid: _ThreadID=116 _ThreadName=Thread-24] [timeMillis: 1672609054654] [levelValue: 800] [[
+  Security Service(s) started successfully.]]
+
+[2023-01-01T21:37:34.739+0000] [glassfish 6.2] [INFO] [] [jakarta.enterprise.system.tools.deployment.common] [tid: _ThreadID=116 _ThreadName=Thread-24] [timeMillis: 1672609054739] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2023-01-01T21:37:34.748+0000] [glassfish 6.2] [INFO] [] [jakarta.enterprise.system.tools.deployment.common] [tid: _ThreadID=116 _ThreadName=Thread-24] [timeMillis: 1672609054748] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2023-01-01T21:37:34.749+0000] [glassfish 6.2] [INFO] [] [jakarta.enterprise.system.tools.deployment.common] [tid: _ThreadID=116 _ThreadName=Thread-24] [timeMillis: 1672609054749] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2023-01-01T21:37:35.131+0000] [glassfish 6.2] [INFO] [jsf.config.listener.version] [jakarta.enterprise.resource.webcontainer.jsf.config] [tid: _ThreadID=116 _ThreadName=Thread-24] [timeMillis: 1672609055131] [levelValue: 800] [[
+  Initializing Mojarra 3.0.1 for context '']]
+
+[2023-01-01T21:37:35.200+0000] [glassfish 6.2] [INFO] [NCLS-REST-00001] [jakarta.enterprise.admin.rest] [tid: _ThreadID=58 _ThreadName=admin-listener(4)] [timeMillis: 1672609055200] [levelValue: 800] [[
+  Listening to REST requests at context: /management/domain.]]
+
+[2023-01-01T21:37:35.498+0000] [glassfish 6.2] [INFO] [AS-WEB-GLUE-00172] [jakarta.enterprise.web] [tid: _ThreadID=116 _ThreadName=Thread-24] [timeMillis: 1672609055498] [levelValue: 800] [[
+  Loading application [__admingui] at [/]]]
+
+[2023-01-01T21:37:35.499+0000] [glassfish 6.2] [INFO] [NCLS-CORE-00022] [jakarta.enterprise.system.core] [tid: _ThreadID=116 _ThreadName=Thread-24] [timeMillis: 1672609055499] [levelValue: 800] [[
+  Loading application __admingui done in 1,491 ms]]
+
+[2023-01-01T21:37:36.106+0000] [glassfish 6.2] [WARNING] [] [javax.enterprise.system.container.web.com.sun.web.security] [tid: _ThreadID=57 _ThreadName=admin-listener(3)] [timeMillis: 1672609056106] [levelValue: 900] [[
+  Context path from ServletContext:  differs from path from bundle: /]]
+
+[2023-01-01T21:37:56.581+0000] [glassfish 6.2] [INFO] [NCLS-CORE-00092] [jakarta.enterprise.system.core] [tid: _ThreadID=160 _ThreadName=Thread-35] [timeMillis: 1672609076581] [levelValue: 800] [[
+  Server shutdown initiated]]
+
+[2023-01-01T21:37:56.588+0000] [glassfish 6.2] [INFO] [NCLS-BOOTSTRAP-00028] [jakarta.enterprise.bootstrap] [tid: _ThreadID=160 _ThreadName=Thread-35] [timeMillis: 1672609076588] [levelValue: 800] [[
+  Unregistered com.sun.enterprise.glassfish.bootstrap.osgi.EmbeddedOSGiGlassFishImpl@4d6f623d from service registry.]]
+
+[2023-01-01T21:37:56.588+0000] [glassfish 6.2] [INFO] [] [] [tid: _ThreadID=160 _ThreadName=Thread-7] [timeMillis: 1672609076588] [levelValue: 800] [[
+  FileMonitoring shutdown]]
+
+[2023-01-01T21:37:56.593+0000] [glassfish 6.2] [INFO] [NCLS-JMX-00002] [jakarta.enterprise.system.jmx] [tid: _ThreadID=160 _ThreadName=Thread-35] [timeMillis: 1672609076593] [levelValue: 800] [[
+  JMXStartupService: Stopped JMXConnectorServer: null]]
+
+[2023-01-01T21:37:56.594+0000] [glassfish 6.2] [INFO] [NCLS-JMX-00001] [jakarta.enterprise.system.jmx] [tid: _ThreadID=160 _ThreadName=Thread-35] [timeMillis: 1672609076594] [levelValue: 800] [[
+  JMXStartupService and JMXConnectors have been shut down.]]
+
+[2023-01-01T21:37:56.618+0000] [glassfish 6.2] [INFO] [] [] [tid: _ThreadID=162 _ThreadName=Thread-7] [timeMillis: 1672609076618] [levelValue: 800] [[
+  JdbcRuntimeExtension,  getAllSystemRAResourcesAndPools = [GlassFishConfigBean.org.glassfish.jdbc.config.JdbcResource, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcResource, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcResource, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcConnectionPool, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcConnectionPool, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcConnectionPool]]]
+
