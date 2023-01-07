@@ -8,7 +8,7 @@ def text_manipulation():
             r"[a-zA-Z-]+[\w ] [a-zA-Z-][\w ] \d\d\d\d-\d\d-\d\d [a-zA-Z-]+ [T[0-9]+:[\d]+:[\d]+")
         format_text = re.findall(pattern, text)
         words = " \n".join(format_text).split(",")
-        file.close()
+    file.close()
 
     return([print(w) for w in words])
 
